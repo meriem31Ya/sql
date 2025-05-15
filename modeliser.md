@@ -1,3 +1,8 @@
+MERISE est donc une méthode d'analyse et de conception des SI basée sur le principe de la séparation des données et des traitements. Elle possède un certain nombre de modèles (ou schémas) qui sont répartis sur trois niveaux :
+
+le niveau conceptuel ;
+le niveau logique ou organisationnel ;
+le niveau physique.
 c'est important avant de se lancer
 dans la conception d'une base de données
 de réfléchir à notre système d'une
