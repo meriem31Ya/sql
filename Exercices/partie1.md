@@ -53,8 +53,9 @@ Travaille sur la base de données `training` et la table `students` que je viens
    - `id` (clé primaire, auto-incrément),
    - `first_name`,
    - `last_name`,
-   - `birth_date`,
-   - `email`.
+   - `birth_date` (date),
+   - `email` (unique),
+   - `phone_number` (unique).
 
 ---
 
@@ -114,8 +115,6 @@ Travaille sur la base de données `training` et la table `students` que je viens
 16. Date de naissance la plus ancienne
 
 17. Date de naissance la plus récente
-
-18. Nombre d'étudiants par année de naissance
 
 ---
 

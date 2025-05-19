@@ -55,11 +55,12 @@ Utilisée pour filtrer les groupes de résultats après l'agrégation (contraire
 9. Sélection des formations ayant plus de 2 étudiants (HAVING)
 10. Sélection des étudiants non inscrits à une formation
 11. Sélection de tous les étudiants avec leurs formations associées
-12. Sélection de tous les centres de formation avec leurs formations associées, même sans formation (LEFT JOIN)
-13. Sélection de tous les étudiants avec leurs formations associées (doublon intentionnel ?)
-14. Sélection de tous les centres de formation avec leurs formations planifiées ou en cours (WHERE statut IN ('planifiée', 'en cours'))
-15. Sélection de tous les centres de formation et le nombre de formations qu’ils dispensent
-16. Même requête que 15 avec un tri décroissant (ORDER BY DESC)
-17. Sélection de tous les centres de formation ayant un nombre de formations supérieur à 2 (HAVING)
+12. Afficher la liste de tous les centres de formation, ainsi que leurs formations associées s’il y en a, y compris ceux qui n’en proposent pas (via un LEFT JOIN).
+13. Sélection de tous les centres de formation avec leurs formations planifiées ou en cours
+14. Sélection de tous les centres de formation et le nombre de formations qu’ils dispensent
+15. Sélection de tous les centres de formation ayant un nombre de formations supérieur à 2 (HAVING)
+16. Même requête que 15 avec un tri décroissant
+17. Formations sans étudiants inscrits
+18. creer un procédure qui insert un etudiant
 
 ---
